@@ -1,8 +1,9 @@
-<title>GE Market Watch: Statistical Analysis</title>
+**GE Market Watch: Data Analysis**
 
-Plan: Find safest profitable and highly-traded items.
-General Pipeline: Gaz Lloyd's GEBot → weirdgloop API ⇆ Auto-Updater → Local DB ⇆ Data Analyzer ⇆ Data Distributor ⇆ Client Applications (e.g.; web browser, Discord, etc.).
+Objective: Find safest profitable and highly-traded items.<br>
+High-level Architecture: Gaz Lloyd's GEBot → weirdgloop API ⇆ Auto-Updater → Local DB ⇆ Data Analyzer ⇆ Data Distributor ⇆ Client Applications (e.g.; web browser, Discord, etc.).
 
+Data Source/API List
 ```json
 {
     "GEMW_all_past_day": "https://chisel.weirdgloop.org/gazproj/gazbot/rs_dump.json",
