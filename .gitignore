@@ -1,0 +1,10 @@
+.env
+.venv
+__pycache__
+.DS_Store
+
+# Retrieved Data
+data/GEMW_items/
+data/GEMW_past_90_days/
+data/GEMW_past_day/
+data/MatPlotLib_Analysis/
